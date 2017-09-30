@@ -10,7 +10,7 @@ SPE - MATLAB 1.0 (2017-02-21)
 Copyright 2006-2017 Roey Mechrez Licensed for noncommercial research use only.
 
 <div align='center'>
-  <img src='example.png'>
+  <img src='example.png' color="black">
 </div>
 
   
