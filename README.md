@@ -17,9 +17,9 @@ Copyright 2006-2017 Roey Mechrez Licensed for noncommercial research use only.
 
 ## Background
 
-This code implements a fast Template Matching in the wild algorithm.
+This code implements a fast post processing to make images photorealistic using Screened Poisson Equation (SPE)
 
-The algorithm solves the following problem: style transfer algorithms generate unrealistic images, this algorithm is a post-processing to any style transfer method (such as Gatys et al.). The algorithm solves the Screen Poisson equation to combine the stylized image with the original image gradients. 
+Style transfer algorithms generate unrealistic images, this algorithm is a post-processing to any style transfer method (such as Gatys et al.). The algorithm solves the Screen Poisson equation to combine the stylized image with the original image gradients. 
 
 For more information see:
 ```
@@ -42,8 +42,9 @@ To run one pair of images use
 example.m
 ```
 core functions:
- - doPoissonCombination.m and updateImagePoisson.m
-
+```
+doPoissonCombination.m, updateImagePoisson.m
+```
 
 ## License
 
