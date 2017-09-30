@@ -10,7 +10,7 @@ SPE - MATLAB 1.0 (2017-02-21)
 Copyright 2006-2017 Roey Mechrez Licensed for noncommercial research use only.
 
 <div align='center'>
-  <img src='example.png' height="500px">
+  <img src='example.png'>
 </div>
 
   
@@ -33,16 +33,6 @@ For more information see:
 
 [[arXiv]](https://arxiv.org/abs/1709.09828)
 Please cite these paper if you use this code in an academic publication.
-
-			
-### (optional) for deep features
- 
- - MatConvNet: see [[MatConvNet code]](http://www.vlfeat.org/matconvnet/install/)
- - imagenet-vgg-verydeep-19.mat should be download from [[vgg]](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat and placed inside folder $\DDIS_code_matlab\utils\deepFeatures).
- - FLANN: we find it hard to recomplie the project, we provide mex files. This is optional
-            if L2 between deep features is desirable. Otherwise just use cosine distance.
-
-
 
 
 ## Use
