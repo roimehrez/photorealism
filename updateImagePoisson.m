@@ -16,6 +16,10 @@ out_im = styledLAB;
 % paper
 for c=1:3
     [dx, dy] = sGradMex(single(origLAB(:,:, c)));
+    %the above line could be replace with the following MATLAB code:
+    %a = single(origLAB(:,:, c));
+    %dx = a - circshift(a,-1,2); 
+    %dy = a - circshift(a,-1,1);
     out_im(:,:,c) = doPoissonCombination(styledLAB(:,:,c),dx,dy,im_size,w(c));%test
 end
 
