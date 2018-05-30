@@ -45,6 +45,7 @@ core functions:
 ```
 doPoissonCombination.m, updateImagePoisson.m
 ```
+if you are using Linux or OS, see [issue#2](https://github.com/roimehrez/photorealism/issues/2) for solution since the attach mex file will not work. 
 
 ## License
 
